@@ -1,12 +1,12 @@
-#!/usr/bin/venv python
+#!/usr/bin/env python
 
 import argh
-import os
 
 
 def greet(name, greeting='Hello'):
     "Greets the user with given name. The greeting is customizable."
     return greeting + ', ' + name
+
 
 # def list(path):
 #     print(os.listdir(os.getcwd()))
